@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config",
+  "name": "@msg-labs/eslint-config",
   "version": "1.0.0",
   "description": "ESLint shareable configuration",
   "main": "index.js",
