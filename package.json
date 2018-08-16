@@ -1,0 +1,32 @@
+{
+  "name": "eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint shareable configuration",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --config .eslintrc **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msg-labs/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "style linter",
+    "quality",
+    "standard"
+  ],
+  "author": {
+    "name": "Miguel Sanchez Gonzalez",
+    "email": "miguelsanychez@gmail.com",
+    "url": "https://miguelsanchezgonzalez.com"
+  },
+  "license": "WTFNMFPL-1.0",
+  "bugs": {
+    "url": "https://github.com/msg-labs/eslint-config/issues"
+  },
+  "homepage": "https://github.com/msg-labs/eslint-config#readme",
+  "devDependencies": {
+    "eslint": "^5.3.0"
+  }
+}
