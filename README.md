@@ -1,4 +1,4 @@
-# MSG's ESLint configuration
+# ESLint configuration
 
 ## Installation
 
