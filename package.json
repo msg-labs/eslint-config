@@ -4,7 +4,7 @@
   "description": "ESLint shareable configuration",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint --config .eslintrc **/*.js"
+    "lint": "eslint --config .eslintrc.js **/*.js"
   },
   "repository": {
     "type": "git",
