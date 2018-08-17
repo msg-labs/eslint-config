@@ -150,6 +150,22 @@ module.exports = {
             } 
         ],
 
+        'object-property-newline': [
+            'error',
+            {
+                allowAllPropertiesOnSameLine: false
+            }
+        ],
+
+        'object-curly-newline': [
+            'error',
+            {
+                multiline: true,
+                minProperties: 2,
+                consistent: true
+            }
+        ],
+
         'function-paren-newline': [
             'error',
             'multiline' 
