@@ -4,7 +4,7 @@
   "description": "ESLint shareable configuration",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint --config .eslintrc.js **/*.js"
+    "lint": "eslint --config .eslintrc.js **/*.js --ignore-pattern !.eslintrc.js"
   },
   "repository": {
     "type": "git",
