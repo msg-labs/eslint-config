@@ -4,7 +4,10 @@ module.exports = {
         "sourceType": "module"
     },
     "rules": {
-        
+
+        "quotes": [ "error", "single" , {
+            allowTemplateLiterals: true
+        }],
         "array-bracket-newline": [ "error", {
             "multiline": true,
             "minItems": 2
