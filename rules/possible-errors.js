@@ -25,7 +25,10 @@ module.exports = {
     'no-extra-parens': [
         'error',
         'all',
-        { 'ignoreJSX': 'multi-line' }
+        {
+            'ignoreJSX': 'multi-line',
+            'nestedBinaryExpressions': true
+        }
     ],
     'no-extra-semi': [ 'error' ],
     'no-func-assign': [ 'error' ],
