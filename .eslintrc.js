@@ -1,213 +1,23 @@
+const errors = require( './rules/possible-errors.js' );
+const bestPractices = require( './rules/best-pratices.js' );
+const rules = require( './rules/rules.js' );
+const node = require( './rules/node.js' );
+const stylisticIssues = require( './rules/stylistic-issues.js' );
+const es6 = require( './rules/es6.js' );
+const variables = require( './rules/variables.js' );
+
 module.exports = {
     'parserOptions': {
         'ecmaVersion': 9,
         'sourceType': 'module'
     },
     'rules': {
-
-        'quotes': [
-            'error',
-            'single',
-            {
-                allowTemplateLiterals: true
-            } 
-        ],
-        'array-bracket-newline': [
-            'error',
-            {
-                'multiline': true,
-                'minItems': 2
-            } 
-        ],
-
-        'array-bracket-spacing': [
-            'error',
-            'always' 
-        ],
-        'array-callback-return': [ 'error' ],
-        'array-element-newline': [
-            'error',
-            {
-                'multiline': true,
-                'minItems': 2
-            } 
-        ],
-
-        'arrow-body-style': [
-            'error',
-            'as-needed' 
-        ],
-        'arrow-parens': [
-            'error',
-            'as-needed' 
-        ],
-        'arrow-spacing': [
-            'error',
-            {
-                'before': true,
-                'after': true
-            } 
-        ],
-
-        'block-scoped-var': [ 'error' ],
-
-        'block-spacing': [
-            'error',
-            'always' 
-        ],
-        'brace-style': [
-            'error',
-            '1tbs',
-            {
-                'allowSingleLine': false
-            } 
-        ],
-
-        'callback-return': [ 'error' ],
-        'camelcase': [
-            'error',
-            {
-                'properties': 'always'
-            } 
-        ],
-
-        'capitalized-comments': [
-            'error',
-            'always',
-            {
-                'ignoreConsecutiveComments': true
-            } 
-        ],
-
-        'class-methods-use-this': [ 'warn' ],
-
-        'comma-dangle': [
-            'error',
-            'never' 
-        ],
-        'comma-spacing': [
-            'error',
-            {
-                'before': false,
-                'after': true
-            } 
-        ],
-        'comma-style': [
-            'error',
-            'last' 
-        ],
-
-        'complexity': [
-            'error',
-            4 
-        ],
-
-        'computed-property-spacing': [
-            'error',
-            'always' 
-        ],
-        'consistent-return': [ 'error' ],
-
-        'consistent-this': [ 'error' ],
-        'constructor-super': [ 'error' ],
-        'curly': [
-            'error',
-            'all' 
-        ],
-        'default-case': [ 'error' ],
-        'dot-location': [
-            'error',
-            'property' 
-        ],
-        'dot-notation': [
-            'error',
-            {
-                'allowKeywords': false
-            } 
-        ],
-
-        'eol-last': [
-            'error',
-            'always' 
-        ],
-
-        'eqeqeq': [
-            'error',
-            'always' 
-        ],
-
-        'for-direction': [ 'error' ],
-        'func-call-spacing': [
-            'error',
-            'never' 
-        ],
-
-        'func-style': [
-            'error',
-            'declaration',
-            {
-                'allowArrowFunctions': true
-            } 
-        ],
-
-        'object-property-newline': [
-            'error',
-            {
-                allowAllPropertiesOnSameLine: false
-            }
-        ],
-
-        'object-curly-newline': [
-            'error',
-            {
-                multiline: true,
-                minProperties: 2,
-                consistent: true
-            }
-        ],
-
-        'function-paren-newline': [
-            'error',
-            'multiline' 
-        ],
-        'implicit-arrow-linebreak': [
-            'error',
-            'beside' 
-        ],
-
-        'indent': [
-            'error',
-            4 
-        ],
-
-        'key-spacing': [
-            'error',
-            {
-                'beforeColon': false,
-                'afterColon': true,
-                'mode': 'strict'
-            } 
-        ],
-
-        'keyword-spacing': [
-            'error',
-            {
-                'after': true,
-                'before': true
-            } 
-        ],
-
-        'line-comment-position': [
-            'error',
-            {
-                'position': 'above'
-            }
-        ],
-
-        'linebreak-style': [
-            'error',
-            'unix' 
-        ]
-
-    }   
-}
+        ...errors,
+        ...bestPractices,
+        ...rules,
+        ...node,
+        ...stylisticIssues,
+        ...es6,
+        ...variables
+    }
+};
