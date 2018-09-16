@@ -7,11 +7,11 @@ const es6 = require( './rules/es6.js' );
 const variables = require( './rules/variables.js' );
 
 module.exports = {
-    'parserOptions': {
-        'ecmaVersion': 9,
-        'sourceType': 'module'
+    parserOptions: {
+        ecmaVersion: 9,
+        sourceType: 'module'
     },
-    'rules': {
+    rules: {
         ...errors,
         ...bestPractices,
         ...rules,

@@ -1,5 +1,5 @@
 const ARRAY_NEWLINE_MIN_ITEMS = 2;
-const SPACE_IDENT_DEPTH = 4
+const SPACE_IDENT_DEPTH = 4;
 const MAX_DEPTH = 4;
 const MAX_LINE_LENGTH = 80;
 
@@ -7,8 +7,8 @@ module.exports = {
     'array-bracket-newline': [
         'error',
         {
-            'multiline': true,
-            'minItems': ARRAY_NEWLINE_MIN_ITEMS
+            multiline: true,
+            minItems: ARRAY_NEWLINE_MIN_ITEMS
         }
     ],
     'array-bracket-spacing': [
@@ -18,8 +18,8 @@ module.exports = {
     'array-element-newline': [
         'error',
         {
-            'multiline': true,
-            'minItems': ARRAY_NEWLINE_MIN_ITEMS
+            multiline: true,
+            minItems: ARRAY_NEWLINE_MIN_ITEMS
         }
     ],
     'block-spacing': [
@@ -30,20 +30,20 @@ module.exports = {
         'error',
         '1tbs',
         {
-            'allowSingleLine': false
+            allowSingleLine: false
         }
     ],
     'camelcase': [
         'error',
         {
-            'properties': 'always'
+            properties: 'always'
         }
     ],
     'capitalized-comments': [
         'error',
         'always',
         {
-            'ignoreConsecutiveComments': true
+            ignoreConsecutiveComments: true
         }
     ],
     'comma-dangle': [
@@ -53,8 +53,8 @@ module.exports = {
     'comma-spacing': [
         'error',
         {
-            'before': false,
-            'after': true
+            before: false,
+            after: true
         }
     ],
     'comma-style': [
@@ -86,7 +86,7 @@ module.exports = {
         'error',
         'declaration',
         {
-            'allowArrowFunctions': true
+            allowArrowFunctions: true
         }
     ],
     'function-paren-newline': [
@@ -108,22 +108,22 @@ module.exports = {
     'key-spacing': [
         'error',
         {
-            'beforeColon': false,
-            'afterColon': true,
-            'mode': 'strict'
+            beforeColon: false,
+            afterColon: true,
+            mode: 'strict'
         }
     ],
     'keyword-spacing': [
         'error',
         {
-            'after': true,
-            'before': true
+            after: true,
+            before: true
         }
     ],
     'line-comment-position': [
         'error',
         {
-            'position': 'above'
+            position: 'above'
         }
     ],
     'linebreak-style': [
@@ -133,10 +133,10 @@ module.exports = {
     'lines-around-comment': [
         'warn',
         {
-            'beforeBlockComment': true,
-            'afterBlockComment': false,
-            'beforeLineComment': true,
-            'afterLineComment': false
+            beforeBlockComment: true,
+            afterBlockComment: false,
+            beforeLineComment: true,
+            afterLineComment: false
         }
     ],
     'lines-between-class-members': [
@@ -151,41 +151,41 @@ module.exports = {
         'warn',
         MAX_LINE_LENGTH,
         {
-            'ignoreUrls': true,
-            'ignoreStrings': true,
-            'ignoreTemplateLiterals': true,
-            'ignoreRegExpLiterals': true
+            ignoreUrls: true,
+            ignoreStrings: true,
+            ignoreTemplateLiterals: true,
+            ignoreRegExpLiterals: true
         }
     ],
     'max-lines': [
         'warn',
         {
-            'max': 250,
-            'skipBlankLines': true,
-            'skipComments': true
+            max: 250,
+            skipBlankLines: true,
+            skipComments: true
         }
     ],
     'max-lines-per-function': [
         'warn',
         {
-            'max': 25,
-            'skipBlankLines': true,
-            'skipComments': true,
-            'IIFEs': true
+            max: 25,
+            skipBlankLines: true,
+            skipComments: true,
+            IIFEs: true
         }
     ],
     'max-nested-callbacks': [
         'warn',
-        { 'max': 3 }
+        { max: 3 }
     ],
     'max-params': [
         'warn',
-        { 'max': 3 }
+        { max: 3 }
     ],
     'max-statemens': [ 'off' ],
     'max-statements-per-line': [
         'warn',
-        { 'max': 1 }
+        { max: 1 }
     ],
     'multiline-comment-style': [
         'error',
@@ -198,15 +198,15 @@ module.exports = {
     'new-cap': [
         'error',
         {
-            'newIsCap': true,
-            'capIsNew': true,
-            'properties': true
+            newIsCap: true,
+            capIsNew: true,
+            properties: true
         }
     ],
     'new-parens': [ 'error' ],
     'newline-per-chained-call': [
         'error',
-        { 'ignoreChainWithDepth': 1 }
+        { ignoreChainWithDepth: 1 }
     ],
     'no-array-constructor': [ 'error' ],
     'no-bitwise': [ 'error' ],
@@ -218,22 +218,22 @@ module.exports = {
     'no-multi-assign': [ 'error' ],
     'no-multiple-empty-lines': [
         'error',
-        { 'max': 2 }
+        { max: 2 }
     ],
     'no-negated-condition': [ 'error' ],
     'no-nested-ternary': [ 'error' ],
     'no-new-object': [ 'error' ],
     'no-plusplus': [
         'error',
-        { 'allowForLoopAfterthoughts': true }
+        { allowForLoopAfterthoughts: true }
     ],
     'no-tabs': [ 'error' ],
     'no-ternary': [ 'off' ],
     'no-trailing-spaces': [
         'error',
         {
-            'skipBlankLines': false,
-            'ignoreComments': false
+            skipBlankLines: false,
+            ignoreComments: false
         }
     ],
     'no-underscore-dangle': [ 'warn' ],
@@ -254,7 +254,7 @@ module.exports = {
     ],
     'object-property-newline': [
         'error',
-        { 'allowAllPropertiesOnSameLine': false }
+        { allowAllPropertiesOnSameLine: false }
     ],
     'one-var': [
         'error',
@@ -276,22 +276,22 @@ module.exports = {
     'padding-line-between-statements': [
         'error',
         {
-            'blankLine': 'always',
-            'prev': [
+            blankLine: 'always',
+            prev: [
                 'const',
                 'let',
                 'var'
             ],
-            'next': '*'
+            next: '*'
         },
         {
-            'blankLine': 'any',
-            'prev': [
+            blankLine: 'any',
+            prev: [
                 'const',
                 'let',
                 'var'
             ],
-            'next': [
+            next: [
                 'const',
                 'let',
                 'var'

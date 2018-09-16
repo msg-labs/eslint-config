@@ -18,17 +18,17 @@ module.exports = {
     'default-case': [ 'warn' ],
     'dot-location': [
         'error',
-        'property' 
+        'property'
     ],
     'dot-notation': [
         'error',
         {
-            'allowKeywords': false
-        } 
+            allowKeywords: false
+        }
     ],
     'eqeqeq': [
         'error',
-        'always' 
+        'always'
     ],
     'guard-for-in': [ 'error' ],
     'max-classes-per-file': [

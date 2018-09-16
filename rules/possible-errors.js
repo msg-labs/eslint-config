@@ -26,8 +26,8 @@ module.exports = {
         'error',
         'all',
         {
-            'ignoreJSX': 'multi-line',
-            'nestedBinaryExpressions': true
+            ignoreJSX: 'multi-line',
+            nestedBinaryExpressions: true
         }
     ],
     'no-extra-semi': [ 'error' ],
