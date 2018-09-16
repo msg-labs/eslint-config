@@ -8,7 +8,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Bug Fixes
 
-* apply eslin rules ([d727ef7](https://github.com/msg-labs/eslint-config/commit/d727ef7))
+* apply eslint rules ([d727ef7](https://github.com/msg-labs/eslint-config/commit/d727ef7))
 * import external modules into the main .eslintrc.js ([1ddc517](https://github.com/msg-labs/eslint-config/commit/1ddc517))
 * sort object keys ([611e47e](https://github.com/msg-labs/eslint-config/commit/611e47e))
 * update no-extra-parens rule ([8b25726](https://github.com/msg-labs/eslint-config/commit/8b25726))
@@ -28,12 +28,6 @@ All notable changes to this project will be documented in this file. See [standa
 * first batch of stylistic issues ([b4a1b2d](https://github.com/msg-labs/eslint-config/commit/b4a1b2d))
 * lint eslintrc ([ffc3f81](https://github.com/msg-labs/eslint-config/commit/ffc3f81))
 * nodejs rules ([d7027ea](https://github.com/msg-labs/eslint-config/commit/d7027ea))
-
-
-
-<a name="1.0.2"></a>
-## 1.0.2 (2018-08-16)
-
 
 
 <a name="1.0.1"></a>
