@@ -10,8 +10,8 @@ module.exports = {
     'arrow-spacing': [
         'error',
         {
-            before: true,
-            after: true
+            after: true,
+            before: true
         }
     ],
     'constructor-super': [ 'error' ],
@@ -22,7 +22,6 @@ module.exports = {
     'no-class-assign': [ 'error' ],
     'no-confusing-arrow': [ 'error' ],
     'no-const-assign': [ 'error' ],
-    'spaced-comment': [ 'error' ],
     'no-duplicate-imports': [
         'error',
         { includeExports: true }
@@ -53,6 +52,7 @@ module.exports = {
         'never'
     ],
     'sort-imports': [ 'off' ],
+    'spaced-comment': [ 'error' ],
     'symbol-description': [ 'error' ],
     'template-curly-spacing': [
         'error',

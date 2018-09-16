@@ -7,8 +7,8 @@ module.exports = {
     'array-bracket-newline': [
         'error',
         {
-            multiline: true,
-            minItems: ARRAY_NEWLINE_MIN_ITEMS
+            minItems: ARRAY_NEWLINE_MIN_ITEMS,
+            multiline: true
         }
     ],
     'array-bracket-spacing': [
@@ -18,8 +18,8 @@ module.exports = {
     'array-element-newline': [
         'error',
         {
-            multiline: true,
-            minItems: ARRAY_NEWLINE_MIN_ITEMS
+            minItems: ARRAY_NEWLINE_MIN_ITEMS,
+            multiline: true
         }
     ],
     'block-spacing': [
@@ -53,8 +53,8 @@ module.exports = {
     'comma-spacing': [
         'error',
         {
-            before: false,
-            after: true
+            after: true,
+            before: false
         }
     ],
     'comma-style': [
@@ -108,8 +108,8 @@ module.exports = {
     'key-spacing': [
         'error',
         {
-            beforeColon: false,
             afterColon: true,
+            beforeColon: false,
             mode: 'strict'
         }
     ],
@@ -133,10 +133,10 @@ module.exports = {
     'lines-around-comment': [
         'warn',
         {
-            beforeBlockComment: true,
             afterBlockComment: false,
-            beforeLineComment: true,
-            afterLineComment: false
+            afterLineComment: false,
+            beforeBlockComment: true,
+            beforeLineComment: true
         }
     ],
     'lines-between-class-members': [
@@ -151,10 +151,10 @@ module.exports = {
         'warn',
         MAX_LINE_LENGTH,
         {
-            ignoreUrls: true,
+            ignoreRegExpLiterals: true,
             ignoreStrings: true,
             ignoreTemplateLiterals: true,
-            ignoreRegExpLiterals: true
+            ignoreUrls: true
         }
     ],
     'max-lines': [
@@ -168,10 +168,10 @@ module.exports = {
     'max-lines-per-function': [
         'warn',
         {
+            IIFEs: true,
             max: 25,
             skipBlankLines: true,
-            skipComments: true,
-            IIFEs: true
+            skipComments: true
         }
     ],
     'max-nested-callbacks': [
@@ -198,8 +198,8 @@ module.exports = {
     'new-cap': [
         'error',
         {
-            newIsCap: true,
             capIsNew: true,
+            newIsCap: true,
             properties: true
         }
     ],
@@ -232,8 +232,8 @@ module.exports = {
     'no-trailing-spaces': [
         'error',
         {
-            skipBlankLines: false,
-            ignoreComments: false
+            ignoreComments: false,
+            skipBlankLines: false
         }
     ],
     'no-underscore-dangle': [ 'warn' ],
@@ -243,9 +243,9 @@ module.exports = {
     'object-curly-newline': [
         'error',
         {
-            multiline: true,
+            consistent: true,
             minProperties: 2,
-            consistent: true
+            multiline: true
         }
     ],
     'object-curly-spacing': [
@@ -277,21 +277,21 @@ module.exports = {
         'error',
         {
             blankLine: 'always',
+            next: '*',
             prev: [
                 'const',
                 'let',
                 'var'
-            ],
-            next: '*'
+            ]
         },
         {
             blankLine: 'any',
-            prev: [
+            next: [
                 'const',
                 'let',
                 'var'
             ],
-            next: [
+            prev: [
                 'const',
                 'let',
                 'var'
@@ -315,8 +315,8 @@ module.exports = {
     'semi-spacing': [
         'error',
         {
-            before: false,
-            after: true
+            after: true,
+            before: false
         }
     ],
     'semi-style': [
@@ -348,8 +348,8 @@ module.exports = {
     'space-unary-ops': [
         'error',
         {
-            words: true,
-            nonwords: false
+            nonwords: false,
+            words: true
         }
     ],
     'spaced-comment': [
