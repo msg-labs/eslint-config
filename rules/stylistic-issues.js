@@ -9,70 +9,70 @@ module.exports = {
         {
             'multiline': true,
             'minItems': ARRAY_NEWLINE_MIN_ITEMS
-        } 
+        }
     ],
     'array-bracket-spacing': [
         'error',
-        'always' 
+        'always'
     ],
     'array-element-newline': [
         'error',
         {
             'multiline': true,
             'minItems': ARRAY_NEWLINE_MIN_ITEMS
-        } 
+        }
     ],
     'block-spacing': [
         'error',
-        'always' 
+        'always'
     ],
     'brace-style': [
         'error',
         '1tbs',
         {
             'allowSingleLine': false
-        } 
+        }
     ],
     'camelcase': [
         'error',
         {
             'properties': 'always'
-        } 
+        }
     ],
     'capitalized-comments': [
         'error',
         'always',
         {
             'ignoreConsecutiveComments': true
-        } 
+        }
     ],
     'comma-dangle': [
         'error',
-        'never' 
+        'never'
     ],
     'comma-spacing': [
         'error',
         {
             'before': false,
             'after': true
-        } 
+        }
     ],
     'comma-style': [
         'error',
-        'last' 
+        'last'
     ],
     'computed-property-spacing': [
         'error',
-        'always' 
+        'always'
     ],
     'consistent-this': [ 'error' ],
     'eol-last': [
         'error',
-        'always' 
+        'always'
     ],
     'func-call-spacing': [
         'error',
-        'never' 
+        'never'
     ],
     'func-name-matching': [
         'warn',
@@ -87,19 +87,19 @@ module.exports = {
         'declaration',
         {
             'allowArrowFunctions': true
-        } 
+        }
     ],
     'function-paren-newline': [
         'error',
-        'multiline' 
+        'multiline'
     ],
     'implicit-arrow-linebreak': [
         'error',
-        'beside' 
+        'beside'
     ],
     'indent': [
         'error',
-        SPACE_IDENT_DEPTH 
+        SPACE_IDENT_DEPTH
     ],
     'jsx-quotes': [
         'error',
@@ -111,14 +111,14 @@ module.exports = {
             'beforeColon': false,
             'afterColon': true,
             'mode': 'strict'
-        } 
+        }
     ],
     'keyword-spacing': [
         'error',
         {
             'after': true,
             'before': true
-        } 
+        }
     ],
     'line-comment-position': [
         'error',
@@ -128,7 +128,7 @@ module.exports = {
     ],
     'linebreak-style': [
         'error',
-        'unix' 
+        'unix'
     ],
     'lines-around-comment': [
         'warn',
@@ -267,5 +267,106 @@ module.exports = {
     'operator-assignment': [
         'error',
         'always'
-    ]
+    ],
+    'operator-linebreak': [
+        'error',
+        'none'
+    ],
+    'padded-blocks': [ 'off' ],
+    'padding-line-between-statements': [
+        'error',
+        {
+            'blankLine': 'always',
+            'prev': [
+                'const',
+                'let',
+                'var'
+            ],
+            'next': '*'
+        },
+        {
+            'blankLine': 'any',
+            'prev': [
+                'const',
+                'let',
+                'var'
+            ],
+            'next': [
+                'const',
+                'let',
+                'var'
+            ]
+        }
+    ],
+    'prefer-object-spread': [ 'warn' ],
+    'quote-props': [
+        'error',
+        'consistent-as-needed'
+    ],
+    'quotes': [
+        'error',
+        'single',
+        { allowTemplateLiterals: true }
+    ],
+    'semi': [
+        'error',
+        'always'
+    ],
+    'semi-spacing': [
+        'error',
+        {
+            before: false,
+            after: true
+        }
+    ],
+    'semi-style': [
+        'error',
+        'last'
+    ],
+    'sort-keys': [
+        'warn',
+        'asc',
+        {
+            caseSensitive: false,
+            natural: false
+        }
+    ],
+    'sort-vars': [ 'off' ],
+    'space-before-blocks': [
+        'error',
+        'always'
+    ],
+    'space-before-function-paren': [
+        'error',
+        'always'
+    ],
+    'space-in-parens': [
+        'error',
+        'always'
+    ],
+    'space-infix-ops': [ 'error' ],
+    'space-unary-ops': [
+        'error',
+        {
+            words: true,
+            nonwords: false
+        }
+    ],
+    'spaced-comment': [
+        'error',
+        'always'
+    ],
+    'switch-colon-spacing': [
+        'error',
+        {
+            after: true,
+            before: false
+        }
+    ],
+    'template-tag-spacing': [
+        'error',
+        'never'
+    ],
+    'unicode-bom': [ 'off' ],
+    'wrap-regex': [ 'error' ]
 };
