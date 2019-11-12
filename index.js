@@ -7,6 +7,9 @@ const es6 = require( './rules/es6.js' );
 const variables = require( './rules/variables.js' );
 
 module.exports = {
+    env: {
+        es6: true
+    },
     parserOptions: {
         ecmaVersion: 9,
         sourceType: 'module'
