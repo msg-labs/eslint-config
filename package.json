@@ -1,12 +1,13 @@
 {
   "name": "@msg-labs/eslint-config",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "ESLint shareable configuration",
   "main": "index.js",
   "scripts": {
     "lint": "clear && eslint --config .eslintrc.js **/*.js --ignore-pattern !.eslintrc.js",
     "dev": "chokidar \".eslintrc\" \"rules/**/*.js\" \"test/**/*.js\" -c \"npm run lint\"",
-    "release": "standard-version"
+    "release": "standard-version",
+    "verify": "node ./bin/verify.js"
   },
   "repository": {
     "type": "git",

@@ -1,6 +1,18 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [1.1.0](https://github.com/msg-labs/eslint-config/compare/v1.0.4...v1.1.0) (2019-11-12)
+
+
+### Features
+
+* sets es6 as default environment ([c2aa04c](https://github.com/msg-labs/eslint-config/commit/c2aa04cd3aa1666c3a8a284668fadb14d2ab2d4c))
+
+
+### Bug Fixes
+
+* allows keywords to be used within objects ([0d86251](https://github.com/msg-labs/eslint-config/commit/0d8625197a2818bc02dea9806da0d8947fb4a1f0))
 
 <a name="1.0.4"></a>
 ## [1.0.4](https://github.com/msg-labs/eslint-config/compare/v1.0.3...v1.0.4) (2018-09-16)
