@@ -6,8 +6,7 @@
   "scripts": {
     "lint": "clear && eslint --config .eslintrc.js **/*.js --ignore-pattern !.eslintrc.js",
     "dev": "chokidar \".eslintrc\" \"rules/**/*.js\" \"test/**/*.js\" -c \"npm run lint\"",
-    "release": "standard-version",
-    "verify": "node ./bin/verify.js"
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
