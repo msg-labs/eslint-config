@@ -8,13 +8,13 @@ npm install --save-dev @msg-labs/eslint-config
 
 ## Usage
 
-if you already have an `.eslint` file, add the following line to your `.eslintrc` file:
+if you already have an `.eslintrc` file, add the following line to it:
 
 ```json
     "extends": "@msg-labs"
 ```
 
-otherwise create a new one with this content
+otherwise initialize one with the following snippet:
 
 ```json
 {
