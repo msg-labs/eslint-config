@@ -1,36 +1,36 @@
 {
-  "name": "@msg-labs/eslint-config",
-  "version": "1.2.0",
-  "description": "ESLint shareable configuration",
-  "main": "index.js",
-  "scripts": {
-    "lint": "clear && eslint --config .eslintrc.js **/*.js --ignore-pattern !.eslintrc.js",
-    "dev": "chokidar \".eslintrc\" \"rules/**/*.js\" \"test/**/*.js\" -c \"npm run lint\"",
-    "release": "standard-version"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/msg-labs/eslint-config.git"
-  },
-  "keywords": [
-    "eslint",
-    "style linter",
-    "quality",
-    "standard"
-  ],
-  "author": {
-    "name": "Miguel Sanchez Gonzalez",
-    "email": "miguelsanychez@gmail.com",
-    "url": "https://miguelsanchezgonzalez.com"
-  },
-  "license": "WTFNMFPL-1.0",
-  "bugs": {
-    "url": "https://github.com/msg-labs/eslint-config/issues"
-  },
-  "homepage": "https://github.com/msg-labs/eslint-config#readme",
-  "devDependencies": {
-    "chokidar-cli": "2.1.0",
-    "eslint": "6.7.2",
-    "standard-version": "7.0.1"
-  }
+    "name": "@msg-labs/eslint-config",
+    "version": "1.2.0",
+    "description": "ESLint shareable configuration",
+    "main": "index.js",
+    "scripts": {
+        "lint": "clear && eslint --config .eslintrc.js **/*.js --ignore-pattern !.eslintrc.js",
+        "dev": "chokidar \".eslintrc\" \"rules/**/*.js\" \"test/**/*.js\" -c \"npm run lint\"",
+        "release": "standard-version"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/msg-labs/eslint-config.git"
+    },
+    "keywords": [
+        "eslint",
+        "style linter",
+        "quality",
+        "standard"
+    ],
+    "author": {
+        "name": "Miguel Sanchez Gonzalez",
+        "email": "miguelsanychez@gmail.com",
+        "url": "https://miguelsanchezgonzalez.com"
+    },
+    "license": "WTFNMFPL-1.0",
+    "bugs": {
+        "url": "https://github.com/msg-labs/eslint-config/issues"
+    },
+    "homepage": "https://github.com/msg-labs/eslint-config#readme",
+    "devDependencies": {
+        "chokidar-cli": "2.1.0",
+        "eslint": "6.7.2",
+        "standard-version": "7.0.1"
+    }
 }
