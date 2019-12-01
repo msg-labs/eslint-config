@@ -26,6 +26,7 @@ module.exports = {
         'error',
         'all',
         {
+            enforceForArrowConditionals: false,
             ignoreJSX: 'multi-line',
             nestedBinaryExpressions: true
         }

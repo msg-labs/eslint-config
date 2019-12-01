@@ -20,7 +20,10 @@ module.exports = {
         'after'
     ],
     'no-class-assign': [ 'error' ],
-    'no-confusing-arrow': [ 'error' ],
+    'no-confusing-arrow': [
+        'error',
+        { allowParens: true }
+    ],
     'no-const-assign': [ 'error' ],
     'no-duplicate-imports': [
         'error',
