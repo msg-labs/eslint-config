@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/msg-labs/eslint-config/compare/v1.1.1...v1.2.0) (2019-12-01)
+
+
+### Features
+
+* allows parenthesis around triple conditionals ([341940d](https://github.com/msg-labs/eslint-config/commit/341940db019e4161215cdaaf73d609bffd646f08))
+
 ### [1.1.2](https://github.com/msg-labs/eslint-config/compare/v1.1.1...v1.1.2) (2019-11-13)
 
 ### [1.1.1](https://github.com/msg-labs/eslint-config/compare/v1.1.0...v1.1.1) (2019-11-12)
