@@ -271,7 +271,13 @@ module.exports = {
     ],
     'operator-linebreak': [
         'error',
-        'none'
+        'none',
+        {
+            overrides: {
+                ':': 'after',
+                '?': 'after'
+            }
+        }
     ],
     'padded-blocks': [ 'off' ],
     'padding-line-between-statements': [
