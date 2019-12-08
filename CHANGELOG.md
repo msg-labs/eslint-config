@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.1](https://github.com/msg-labs/eslint-config/compare/v1.3.0...v1.3.1) (2019-12-08)
+
+
+### Bug Fixes
+
+* allows formatting of ternary expressions ([fb605d5](https://github.com/msg-labs/eslint-config/commit/fb605d5c5458052fd5e28404065cd9ad13405d73))
+* disables max-lines on stylilstic-issues.js ([23a97d2](https://github.com/msg-labs/eslint-config/commit/23a97d2e1ab478657124d7b6d8f8c5d98bf115ca))
+* fixes typo on path to tests ([08b2f67](https://github.com/msg-labs/eslint-config/commit/08b2f6718f2aa10419d4635bfe333e35f2103bfc))
+
 ## [1.3.0](https://github.com/msg-labs/eslint-config/compare/v1.2.1...v1.3.0) (2019-12-08)
 
 
