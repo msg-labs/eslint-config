@@ -1,3 +1,4 @@
+/* eslint-disable max-lines */
 const ARRAY_NEWLINE_MIN_ITEMS = 2;
 const SPACE_IDENT_DEPTH = 4;
 const MAX_DEPTH = 4;
