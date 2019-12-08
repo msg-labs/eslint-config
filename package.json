@@ -4,7 +4,8 @@
     "description": "ESLint shareable configuration",
     "main": "index.js",
     "scripts": {
-        "lint": "clear && eslint --config .eslintrc.js **/*.js --ignore-pattern !.eslintrc.js",
+        "eslint": "eslint --config .eslintrc.js",
+        "lint": "npm run eslint -- \"**/*.js\" \"*.js\" --ignore-pattern !.eslintrc.js",
         "dev": "chokidar \".eslintrc\" \"rules/**/*.js\" \"tests/**/*.js\" -c \"npm run lint\"",
         "release": "standard-version"
     },
@@ -42,7 +43,7 @@
     },
     "lint-staged": {
         "*.js": [
-            "npm run lint -- --fix",
+            "npm run eslint -- --fix",
             "git add"
         ]
     }
