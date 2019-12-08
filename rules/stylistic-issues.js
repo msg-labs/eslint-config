@@ -193,7 +193,7 @@ module.exports = {
     ],
     'multiline-ternary': [
         'error',
-        'never'
+        'always-multiline'
     ],
     'new-cap': [
         'error',
