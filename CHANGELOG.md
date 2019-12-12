@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.2](https://github.com/msg-labs/eslint-config/compare/v1.4.1...v1.4.2) (2019-12-12)
+
+
+### Bug Fixes
+
+* customizes styles for switch blocks ([116117d](https://github.com/msg-labs/eslint-config/commit/116117d72c927ebe965c3f2c6d9dadbc41823a79))
+
 ### [1.4.1](https://github.com/msg-labs/eslint-config/compare/v1.4.0...v1.4.1) (2019-12-12)
 
 
