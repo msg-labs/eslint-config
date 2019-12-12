@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.4](https://github.com/msg-labs/eslint-config/compare/v1.4.3...v1.4.4) (2019-12-12)
+
+
+### Bug Fixes
+
+* disable no-mixed-operators rule ([16cf506](https://github.com/msg-labs/eslint-config/commit/16cf50633f9966c556ea4f789ec9b247c5e95c55))
+
 ### [1.4.3](https://github.com/msg-labs/eslint-config/compare/v1.4.2...v1.4.3) (2019-12-12)
 
 
