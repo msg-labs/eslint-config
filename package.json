@@ -46,5 +46,8 @@
             "npm run eslint -- --fix",
             "git add"
         ]
+    },
+    "dependencies": {
+        "eslint-plugin-jest": "23.1.1"
     }
 }
