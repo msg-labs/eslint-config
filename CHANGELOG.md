@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/msg-labs/eslint-config/compare/v1.3.1...v1.4.0) (2019-12-12)
+
+
+### Features
+
+* adds jest plugin and overrides some rules ([3314d7d](https://github.com/msg-labs/eslint-config/commit/3314d7d399aa245f7867d62b5e80158242daec06))
+
 ### [1.3.1](https://github.com/msg-labs/eslint-config/compare/v1.3.0...v1.3.1) (2019-12-08)
 
 
