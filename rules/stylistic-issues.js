@@ -100,7 +100,8 @@ module.exports = {
     ],
     'indent': [
         'error',
-        SPACE_IDENT_DEPTH
+        SPACE_IDENT_DEPTH,
+        { SwitchCase: 1 }
     ],
     'jsx-quotes': [
         'error',
@@ -367,7 +368,7 @@ module.exports = {
         'error',
         {
             after: true,
-            before: false
+            before: true
         }
     ],
     'template-tag-spacing': [
