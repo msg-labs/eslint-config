@@ -6,7 +6,7 @@
     "scripts": {
         "eslint": "eslint --config .eslintrc.js",
         "lint": "npm run eslint -- \"**/*.js\" \"*.js\" --ignore-pattern !.eslintrc.js",
-        "dev": "chokidar \".eslintrc\" \"rules/**/*.js\" \"tests/**/*.js\" -c \"npm run lint -s\"",
+        "dev": "chokidar \".eslintrc\" \"rules/**/*.js\" \"tests/**/*.js\" -c \"clear && npm run lint -s\"",
         "release": "standard-version"
     },
     "repository": {
