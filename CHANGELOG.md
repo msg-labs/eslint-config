@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.3](https://github.com/msg-labs/eslint-config/compare/v1.4.2...v1.4.3) (2019-12-12)
+
+
+### Bug Fixes
+
+* allow to consistently indent arrays ([329d0cd](https://github.com/msg-labs/eslint-config/commit/329d0cd91012fd3c4ee20902e73567a21e27e8a4))
+
 ### [1.4.2](https://github.com/msg-labs/eslint-config/compare/v1.4.1...v1.4.2) (2019-12-12)
 
 
