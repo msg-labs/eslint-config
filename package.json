@@ -31,10 +31,11 @@
     "homepage": "https://github.com/msg-labs/eslint-config#readme",
     "devDependencies": {
         "chokidar-cli": "2.1.0",
-        "eslint": "6.7.2",
-        "husky": "3.1.0",
+        "eslint": "6.8.0",
+        "husky": "4.0.10",
         "lint-staged": "9.5.0",
-        "standard-version": "7.0.1"
+        "standard-version": "7.0.1",
+        "eslint-plugin-jest": "23.6.0"
     },
     "husky": {
         "hooks": {
@@ -46,8 +47,5 @@
             "npm run eslint -- --fix",
             "git add"
         ]
-    },
-    "dependencies": {
-        "eslint-plugin-jest": "23.1.1"
     }
 }
