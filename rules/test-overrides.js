@@ -6,5 +6,13 @@ module.exports = {
         { ignoreChainWithDepth: 2 }
     ],
     'no-magic-numbers': 'off',
-    'no-undefined': 'off'
+    'no-undefined': 'off',
+    'object-curly-newline': [
+        'error',
+        {
+            consistent: true,
+            minProperties: 3,
+            multiline: true
+        }
+    ]
 };
