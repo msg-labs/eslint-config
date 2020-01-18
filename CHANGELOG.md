@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/msg-labs/eslint-config/compare/v1.4.4...v1.5.0) (2020-01-18)
+
+
+### Features
+
+* loonsen up some rulest to improve formatting ([7621e70](https://github.com/msg-labs/eslint-config/commit/7621e7078a067f1a456e39d014928860d03064a0))
+* simplify some rules for tests ([9f8152c](https://github.com/msg-labs/eslint-config/commit/9f8152cc3e605013d777c513b427d314cee393bb))
+
 ### [1.4.4](https://github.com/msg-labs/eslint-config/compare/v1.4.3...v1.4.4) (2019-12-12)
 
 
