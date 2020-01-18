@@ -87,10 +87,7 @@ module.exports = {
         'error',
         'multiline'
     ],
-    'implicit-arrow-linebreak': [
-        'error',
-        'beside'
-    ],
+    'implicit-arrow-linebreak': [ 'off' ],
     'indent': [
         'error',
         SPACE_IDENT_DEPTH,

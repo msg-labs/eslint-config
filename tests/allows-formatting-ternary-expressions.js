@@ -1,7 +1,8 @@
 const aVeryLongVariableName = 'impossible';
 
-export const ternaryExpression = value => ( value.isLastValue ?
-    aVeryLongVariableName :
-    `${ aVeryLongVariableName }\n`
+export const ternaryExpression = value => (
+    value.isLastValue ?
+        aVeryLongVariableName :
+        `${ aVeryLongVariableName }\n`
 );
 
