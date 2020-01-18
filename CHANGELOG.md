@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.5.1](https://github.com/msg-labs/eslint-config/compare/v1.5.0...v1.5.1) (2020-01-18)
+
+
+### Bug Fixes
+
+* move eslint-jest back to dependencies ([0e0e390](https://github.com/msg-labs/eslint-config/commit/0e0e39011a31612f9582456daee3d04da835d70e))
+
 ## [1.5.0](https://github.com/msg-labs/eslint-config/compare/v1.4.4...v1.5.0) (2020-01-18)
 
 
