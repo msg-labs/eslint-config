@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/msg-labs/eslint-config/compare/v1.5.1...v1.6.0) (2020-02-27)
+
+
+### Features
+
+* loosens requirements for testing envs ([1b57927](https://github.com/msg-labs/eslint-config/commit/1b5792764d039a51cd4cfd770903fb46757695e9))
+
 ### [1.5.1](https://github.com/msg-labs/eslint-config/compare/v1.5.0...v1.5.1) (2020-01-18)
 
 
