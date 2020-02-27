@@ -31,3 +31,22 @@ describe( 'something', () => {
         expect( true ).toStrictEqual( true );
     } );
 } );
+
+describe( 'it allows nested requires', () => {
+    it( 'requires a module', () => {
+        expect.assertions( 1 );
+        const fs = require( 'fs' );
+
+        expect( fs ).not.toBeUndefined();
+    } );
+} );
+
+describe( 'it doesn\'t enforce a maximum number of nested callbacks', () => {
+    describe( 'this is still legal', () => {
+        describe( 'legal, no probs', () => {
+            jest.doMock( 'fs', () => ( {
+                write: () => () => () => 'test'
+            } ) );
+        } );
+    } );
+} );
